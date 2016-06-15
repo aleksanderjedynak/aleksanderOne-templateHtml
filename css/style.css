@@ -1,2 +1,68 @@
+/*===================== reset bootstrap =====================*/
+
+
+
+
+/*===================== END reset bootstrap =====================*/
+
 body{
+}
+
+
+header{
+	background: url("../img/headImg.jpg");
+	background-size: cover;
+	height: 602px;
+}
+
+.boxHeader{
+	display: block;
+}
+.boxLogo{
+
+	display: inline-block;
+	margin-top: 40px;
+}
+
+
+.mainText{
+
+	font-size: 24px;
+	color: #fff;
+
+}
+
+.boxIconsMobile{
+	font-size: 36px;
+}
+
+.boxIconsMobile a {
+	display: inline-block;
+}
+
+/*event hover icon*/
+.boxIconsMobile a:hover .iconRound {
+	background-color: #828282;
+    color: #663399;
+}
+
+.iconRound{
+	background-color: #fff;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px; 
+    display: block;
+    position: relative;
+    color: #000000;
+}
+
+
+.iconRound i {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+}
+/*fix second icon*/
+a:nth-of-type(2) .iconRound i{
+    left: 16px;
 }
